@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Collective Space - Co-Working Space</title>
+</head>
+<body class="bg-light">
+    <header class="container-fluid py-4 bg-white border-bottom shadow-sm mb-5 sticky-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <h1 class="text-primary fs-3 fw-bold mb-4 mb-md-0 text-center text-md-start">
+                        <i class="bi bi-buildings"></i>
+                        <a href="#" class="text-decoration-none">Collective Space</a>
+                    </h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="text-center text-md-end">
+                        <button type="button" class="btn btn-outline-secondary me-2">Log In</button>
+                        <button type="button" class="btn btn-primary">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container mb-5">
+        <section id="breadcrumb" class="mb-4">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#" class="text-decoration-none">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#" class="text-decoration-none">Locations</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    <a href="#" class="text-decoration-none text-secondary">Central Branch</a>
+                </li>
+            </ul>
+        </section>
+        <section id="alert" class="mb-4">
+            <div class="alert alert-info">
+                <p class="mb-0">
+                    <i class="bi bi-info-circle-fill me-2 fs-5"></i>
+                    <strong>Special Offer!</strong> 
+                    Don't miss out on a 20% discount on 6-month memberships for the summer season!
+                </p>
+            </div>
+        </section>
+        <section id="background" class="mb-5">
+            <img src="img/image.avif" alt="Collective Space Central Branch" class="img-fluid rounded-4 shadow-sm">
+        </section>
+        <section id="boxes" class="pb-5 border-bottom">
+            <h2 class="text-center">Our Amenities</h2>
+            <p class="text-center opacity-75 mb-5">Everything you need, right at your fingertips.</p>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="p-4 text-center border shadow-sm bg-white h-100 rounded-3">
+                        <i class="bi bi-wifi text-primary display-5"></i>
+                        <h4 class="pt-3 pb-2">Fiber Internet</h4>
+                        <span class="small opacity-75 d-inline-block pt-2">Uninterrupted 1000 Mbps symmetrical connection.</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-4 text-center border shadow-sm bg-white h-100 rounded-3">
+                        <i class="bi bi-cup-hot text-primary display-5"></i>
+                        <div class="d-flex align-items-center justify-content-center flex-wrap">
+                            <h4 class="pt-3 pb-2 me-3">Free Drinks</h4>
+                            <span class="badge bg-danger px-3 py-2">Free</span>
+                        </div>
+                        <span class="small opacity-75 d-inline-block pt-2">Tea, filter coffee, and snacks.</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-4 text-center border shadow-sm bg-white h-100 rounded-3">
+                        <i class="bi bi-door-open text-primary display-5"></i>
+                        <h4 class="pt-3 pb-2">24/7 Access</h4>
+                        <span class="small opacity-75 pt-2">Access the office anytime with your keycard.</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-4 text-center border shadow-sm bg-white h-100 rounded-3">
+                        <i class="bi bi-display text-primary display-5"></i>
+                        <div class="d-flex align-items-center justify-content-center flex-wrap">
+                            <h4 class="pt-3 pb-2 me-3">Extra Monitor</h4>
+                            <span class="badge bg-success px-3 py-2">New</span>
+                        </div>
+                        <span class="small opacity-75 d-inline-block pt-2">Dedicated spaces for dual-monitor setups.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tabPanelAndToolTip" class="py-5 border-bottom">
+            <h2 class="fs-3 mb-4">Explore Workspaces</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-8">
+                    <div>
+                        <div class="list-group list-group-horizontal" role="tablist">
+                            <a href="#listAcikOfis" class="list-group-item active" id="acikOfis" data-bs-toggle="list">Open Desk</a>
+                            <a href="#listOzelOda" id="ozelOda" class="list-group-item" data-bs-toggle="list">Private Office</a>
+                            <a href="#listToplantiSalonu" id="toplantiSalonu" class="list-group-item" data-bs-toggle="list">Meeting Room</a>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active p-4 bg-white mt-3 border shadow-sm rounded-3" id="listAcikOfis" aria-labelledby="acikOfis">
+                                <h4 class="fs-5 fw-bold mt text-primary">Social & Dynamic Space</h4>
+                                <p class="mb-4">Flexible seating layout where you can network and connect with professionals from various industries.</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-bottom">
+                                        <i class="bi bi-check2-circle text-success me-2"></i>
+                                        Daily or monthly rental
+                                    </li>
+                                    <li class="list-group-item" data-bs-placement="right" data-bs-toggle="tooltip" title="Herman Miller brand, professional ergonomic seats with lumbar support.">
+                                        <i class="bi bi-info-circle text-info me-2"></i>
+                                        Ergonomic Chair (Hover over me)
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="bi bi-check2-circle text-success me-2"></i>
+                                        Lockable personal locker
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade p-4 bg-white mt-3 border shadow-sm rounded-3" id="listOzelOda" aria-labelledby="ozelOda">
+                                <h4 class="fs-5 fw-bold mt text-primary">Quiet & Focused</h4>
+                                <p class="mb-4">Isolated private offices designed for focused work with your team.</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-bottom">
+                                        2, 4, or 6-person capacity
+                                    </li>
+                                    <li class="list-group-item">
+                                        Whiteboard and office supplies
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade p-4 bg-white mt-3 border shadow-sm rounded-3" id="listToplantiSalonu" aria-labelledby="toplantiSalonu">
+                                <h4 class="fs-5 fw-bold mt text-primary">Professional Presentations</h4>
+                                <p class="mb-4">High-tech equipped meeting rooms designed to host your clients professionally.</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-bottom">
+                                        4K Projector & Sound System
+                                    </li>
+                                    <li class="list-group-item">
+                                        Catering service
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-4 bg-white border shadow-sm rounded-3">
+                        <div class="d-flex align-items-center mb-3">
+                            <h4 class="me-3 mb-0">Live Occupancy</h4>
+                            <span class="spinner-grow spinner-grow-sm bg-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small">Open Desks</span>
+                                <span class="small fw-bold">85%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-danger" style="width: 85%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small">Private Offices</span>
+                                <span class="small fw-bold">50%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-warning" style="width: 50%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small">Meeting Rooms</span>
+                                <span class="small fw-bold">25%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-success" style="width: 25%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tableAndPagination">
+            <h2 class="fs-3 mt-5 mb-4">Upcoming Workshops</h2>
+            <div class="table-responsive">
+                <table class="table text-center table-hover table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Date</th>
+                            <th>Event Title</th>
+                            <th>Instructor</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nov 12</td>
+                            <td>UI Design with Bootstrap 5</td>
+                            <td>Ahmet Yilmaz</td>
+                            <td>
+                                <div class="btn-group btn-group-sm">
+                                    <button type="button" class="btn btn-outline-primary">Details</button>
+                                    <button type="button" class="btn btn-primary">Get Ticket</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nov 15</td>
+                            <td>Networking for Entrepreneurs</td>
+                            <td>Zeynep Kaya</td>
+                            <td>
+                                <div class="btn-group btn-group-sm">
+                                    <button type="button" class="btn btn-outline-primary">Details</button>
+                                    <button type="button" class="btn btn-primary">Get Ticket</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nov 20</td>
+                            <td>Time Management Training</td>
+                            <td>Caner Sahin</td>
+                            <td>
+                                <div class="btn-group btn-group-sm">
+                                    <button type="button" class="btn btn-outline-primary">Details</button>
+                                    <button type="button" class="btn btn-primary">Get Ticket</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center">
+                <ul class="pagination mt-4">
+                    <li class="page-item disabled">
+                        <a href="#" class="text-decoration-none page-link">Previous</a>
+                    </li>
+                    <li class="page-item active">
+                        <a href="#" class="text-decoration-none page-link">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="text-decoration-none page-link">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="text-decoration-none page-link">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="text-decoration-none page-link">Next</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="container-fluid pt-5 bg-dark text-light">
+        <div class="container">
+            <div class="row justify-content-center g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="text-center text-md-start">
+                        <h3 class="mb-3 d-flex justify-content-center justify-content-md-start fs-5 fw-bold">
+                            <i class="bi bi-buildings me-2"></i>
+                            <span>Collective Space</span>
+                        </h3>
+                        <p class="opacity-75">A next-generation, modern, and flexible working environment. Inspiring ideas are born here.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="text-center text-md-end text-lg-center">
+                        <h3 class="fs-5 fw-bold mb-3">Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-decoration-none text-light opacity-75">Locations</a>
+                            </li>
+                            <li class="py-2">
+                                <a href="#" class="text-decoration-none text-light opacity-75">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-light opacity-75">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="text-center text-lg-end">
+                        <h3 class="fs-5 fw-bold mb-3">Follow Us</h3>
+                        <div class="fs-4">
+                            <a href="#" class="text-decoration-none text-light">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none text-light mx-3">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none text-light">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-center py-4 border-top border-secondary-subtle mt-4 justify-content-center opacity-75">
+                        <p class="mb-0 text-center">&copy; 2026 Collective Space. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+</html>
